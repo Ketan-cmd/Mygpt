@@ -1,16 +1,64 @@
-# React + Vite
+# MyGPT — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small React starter built with Vite. This project includes a minimal development setup with ESLint and Tailwind-ready dependencies so you can focus on building features quickly.
 
-Currently, two official plugins are available:
+## Quick start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Prerequisites:
 
-## React Compiler
+- Node.js (v16+) and npm/yarn
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Install dependencies:
 
-## Expanding the ESLint configuration
+```powershell
+cd react-ai-tool
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Run the development server with hot reload:
+
+```powershell
+npm run dev
+```
+
+Build for production:
+
+```powershell
+npm run build
+```
+
+Preview the production build locally:
+
+```powershell
+npm run preview
+```
+
+Lint the codebase:
+
+```powershell
+npm run lint
+```
+
+## Project structure (important files)
+
+- `index.html` — app entry HTML
+- `src/main.jsx` — React entry point
+- `src/App.jsx` — main App component
+- `src/index.css` and `src/App.css` — styles
+- `vite.config.js` — Vite configuration
+- `.gitattributes` — enforces LF line endings in repo
+
+## Notes
+
+- This starter uses Vite for fast dev server and build. See `package.json` for available scripts.
+- `.gitattributes` was added to normalize line endings (LF) across platforms.
+
+## Contributing
+
+1. Fork the repo
+2. Create a topic branch
+3. Open a pull request with a clear description of your change
+
+## License
+
+This project is provided as-is. Add your preferred license file if you plan to reuse or distribute it.
