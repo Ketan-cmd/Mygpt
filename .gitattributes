@@ -1,0 +1,25 @@
+# Normalize line endings to LF in the repository
+# Treat all files as text by default and check them in with LF endings
+* text=auto eol=lf
+
+# Ensure common text file types are normalized to LF
+*.js     text
+*.jsx    text
+*.ts     text
+*.tsx    text
+*.css    text
+*.html   text
+*.json   text
+*.md     text
+*.yml    text
+*.yaml   text
+*.py     text
+
+# Binary files
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.zip    binary
