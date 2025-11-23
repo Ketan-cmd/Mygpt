@@ -6,7 +6,7 @@ A small React starter built with Vite. This project includes a minimal developme
 
 Prerequisites:
 
-- Node.js (v16+) and npm/yarn
+-  Node.js (v16+) and npm/yarn
 
 Install dependencies:
 
