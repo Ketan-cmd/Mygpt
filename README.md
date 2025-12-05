@@ -42,6 +42,7 @@ npm run lint
 ## Project structure (important files)
 
 - `index.html` — app entry HTML
+- `index.html` — app entry HTML
 - `src/main.jsx` — React entry point
 - `src/App.jsx` — main App component
 - `src/index.css` and `src/App.css` — styles
